@@ -7,6 +7,20 @@ int main(){
     int y; // declaration
     y = 10; // initialization
 
+     /*/////////////   Conversion Characters   /////////////
+        %c	Single character
+        %d	Signed decimal integer (int)
+        %e	Signed floating-point value in E notation
+        %f	Signed floating-point value (float)
+        %g	Signed value in %e or %f format, whichever is shorter
+        %i	Signed decimal integer (int)
+        %o	Unsigned octal (base 8) integer (int)
+        %s	String of text
+        %u	Unsigned decimal integer (int)
+        %x	Unsigned hexadecimal (base 16) integer (int)
+    src - http://www.java2s.com/Tutorial/C/0080__printf-scanf/TheprintfConversionCharactersandflags.htm*/
+
+
     printf("%s World!\n", "Hello");
 
     printf("The value of x is %d\n", x);
